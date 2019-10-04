@@ -20,6 +20,8 @@ jQuery(function(){
                             'opacity': 1
                         });
                     });
+                    setTimeout(animateThankYou, 7000);
                 };
+
             animateThankYou();
-            });
+});
